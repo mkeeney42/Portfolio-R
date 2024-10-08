@@ -1,11 +1,11 @@
 import React from 'react';
-import ProfileImg from '../assets/react.svg';
+import ProfileImg from '../assets/Me.png';
 
 function About() {
   return (
-    <section className="about">
-      <div>About Me</div>
-      <img src={ProfileImg} />
+    <section className="about content-wrapper">
+      <h1 className='about-title'>About Me</h1>
+      <img src={ProfileImg}  className='profile-img'/>
       <p>Hello! I’m Matthew Keeney, a seasoned sales professional with over 7 years of experience and a current Software Development Bootcamp student at Ohio State University. My journey began in Huntington, West Virginia, and has taken me through South Point, Ohio, and Morehead, Kentucky, where I’ve been residing since February 2023.
 
 Currently, I work with National Garden Service, managing plant care for various corporations. This role allows me to blend my dedication to detail with my love for nurturing growth and beauty. Simultaneously, I’m diving deep into the world of software development, having discovered a passion for programming midway through 2023. I am committed to continuous learning and skill enhancement in this dynamic field.

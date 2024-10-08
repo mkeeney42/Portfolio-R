@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+    width: 45%;
   }
   
   .project-card {
@@ -44,6 +45,16 @@
   
   .project-buttons .btn:hover {
     opacity: 0.9; /* Subtle effect on hover */
+  }
+
+  .git-btn {
+    background-color: darkgrey;
+    margin-right: 2em;
+  }
+
+  .deploy-btn {
+    background-color: #ffb703;
+    margin-top: 1em;
   }
 
   

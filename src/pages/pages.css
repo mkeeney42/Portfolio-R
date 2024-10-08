@@ -1,0 +1,60 @@
+
+.portfolio {
+    background-color: #8ecae6;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #8ecae6;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.input-wrapper {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    padding: 3rem 3rem;
+    background-color: #8ecae6;
+}
+
+.profile-img {
+    width: 350px;
+    margin-bottom: 5rem;
+}
+
+.resume {
+    padding: 3rem 3rem;
+    background-color: #8ecae6;
+}
+
+.about-title{
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 0.9rem;
+  }

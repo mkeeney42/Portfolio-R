@@ -11,16 +11,20 @@ function Project({ data }) {
   return (
     <section className="project">
        
-        <Card style={{ width: '18rem' }}>
-          <Card.Img style={{ width: '40rem' }} variant="top" src={data.image} alt={data.title} />
+        <Card >
+          <Card.Img style={{ maxWidth: '300px' }} variant="top" src={data.image} alt={data.title} />
           <Card.Body>
             <Card.Title>{data.title}</Card.Title>
             <Card.Text>
               <div>{data.description}</div>
 
             </Card.Text>
-            <Button variant="primary">Checkout GitHub</Button>
-            <Button variant="primary">Checkout Deployed App</Button>
+            <a href={data.github_link} target="_blank" rel="noopener noreferrer">
+            <Button variant="primary" className='git-btn'>Checkout GitHub</Button>
+            </a>
+            <a href={data.deployed_link} target="_blank" rel="noopener noreferrer">
+            <Button variant="primary" className='deploy-btn'>Checkout Deployed App</Button>
+            </a>
           </Card.Body>
         </Card>
     </section>
