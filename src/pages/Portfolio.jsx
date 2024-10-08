@@ -6,7 +6,7 @@ import image3 from '../assets/NoteTaker.png'
 import image4 from '../assets/TaskBoard.png'
 import image5 from '../assets/Blog.png'
 import image6 from '../assets/LogoMaker.png'
-import './pages.css'
+import  './pages.css'
 // import the rest of the images
 
 
